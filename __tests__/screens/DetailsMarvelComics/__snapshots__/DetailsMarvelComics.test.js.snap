@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests in DetailsMarvelComics Screen matches snapshot 1`] = `
+Array [
+  <RCTSafeAreaView
+    backgroundColor="#FF911E"
+    emulateUnlessSupported={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FF911E",
+        },
+      ]
+    }
+  />,
+  <RCTSafeAreaView
+    emulateUnlessSupported={true}
+    style={
+      Array [
+        Object {
+          "height": 20,
+        },
+        Object {
+          "backgroundColor": "#FF911E",
+        },
+      ]
+    }
+  />,
+  <View
+    backgroundColor="#FF911E"
+    slim={false}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FF911E",
+          "flexDirection": "row",
+          "height": 56,
+          "justifyContent": "space-between",
+          "paddingBottom": 0,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 0,
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "#FFF",
+              "fontSize": 26,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "flex-end",
+          "opacity": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 37,
+            "justifyContent": "center",
+            "marginRight": 27,
+            "opacity": 1,
+            "width": 37,
+          }
+        }
+        testID="left-icon"
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/icMessage.png",
+            }
+          }
+        />
+      </View>
+      <View
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 37,
+            "justifyContent": "center",
+            "marginRight": 27,
+            "opacity": 1,
+            "width": 37,
+          }
+        }
+        testID="right-icon"
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/icBell.png",
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>,
+  <RCTScrollView
+    showsVerticalScrollIndicator={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FFF",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#FFF",
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "marginLeft": 6,
+              "marginRight": 6,
+              "marginTop": 10,
+            },
+          ]
+        }
+      />
+    </View>
+  </RCTScrollView>,
+]
+`;
