@@ -11,6 +11,7 @@ const styles = StyleSheet.create({
   }
 });
 
+//My test.
 /* eslint-disable react/jsx-props-no-spreading */
 const StatusBarColor = ({ backgroundColor, isPrimaryColorDark, ...props }) => {
   return (
